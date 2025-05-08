@@ -1,6 +1,6 @@
-# BRAIN-TUMOR-SEGMENTATION
-
 # Brain Tumor Segmentation Using U-Net
+
+
 
 This repository contains a deep learning project focused on segmenting brain tumors from MRI images using the U-Net convolutional neural network (CNN) architecture. The model is trained on the TCGA-LGG dataset obtained from The Cancer Imaging Archive (TCIA) and is capable of generating accurate binary masks that delineate tumor regions in FLAIR MRI scans.
 
