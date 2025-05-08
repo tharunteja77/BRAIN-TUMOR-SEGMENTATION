@@ -4,7 +4,7 @@
 
 This repository contains a deep learning project focused on segmenting brain tumors from MRI images using the U-Net convolutional neural network (CNN) architecture. The model is trained on the TCGA-LGG dataset obtained from The Cancer Imaging Archive (TCIA) and is capable of generating accurate binary masks that delineate tumor regions in FLAIR MRI scans.
 
-## 🧠 Project Overview
+##  Project Overview
 
 Lower-grade gliomas (LGGs) are a heterogeneous group of brain tumors, and their accurate segmentation is crucial for diagnosis, treatment planning, and monitoring. This project automates the segmentation process using a U-Net model, which is especially well-suited for biomedical image segmentation tasks even with limited data.
 
@@ -18,12 +18,7 @@ Lower-grade gliomas (LGGs) are a heterogeneous group of brain tumors, and their 
   - IoU: 0.841
   - Accuracy: 0.998
 
-## 📁 Files
-
-- `Brain_Tumor_Segmentation_Unet.ipynb`: Jupyter notebook with the full model pipeline, including preprocessing, training, evaluation, and visualization.
-- `emt_project_report.pdf`: Final report containing detailed documentation, background literature, methodology, and results.
-
-## 🏗️ Methodology
+## Methodology
 
 1. **Data Preprocessing**:
    - Normalization and resizing of FLAIR MRI images
@@ -44,7 +39,7 @@ Lower-grade gliomas (LGGs) are a heterogeneous group of brain tumors, and their 
    - IoU to measure predictive precision
    - Accuracy to evaluate overall correctness
 
-## 📊 Results
+## Results
 
 The model achieved high segmentation performance on the validation dataset with excellent generalization and minimal false positives.
 
