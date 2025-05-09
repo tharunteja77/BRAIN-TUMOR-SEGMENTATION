@@ -91,14 +91,59 @@ The model achieved high segmentation performance on the validation dataset with 
 </p>
 
 
-## 📚 References
+## References
 
 - Ronneberger et al. "U-Net: Convolutional Networks for Biomedical Image Segmentation", MICCAI 2015.
 - The Cancer Imaging Archive (TCIA) - TCGA-LGG Dataset
 - M. Buda et al., 2019; M.A. Mazurowski et al., 2017
 
+## Technologies Used
+
+### User Interface
+- Streamlit v1.45.0: for building the web app interface
+- Pillow (PIL): image processing and display
+
+### Backend
+- Python v3.12.10: main programming language
+- NumPy v2.1.3: for numerical computation
+- OpenCV (cv2) v4.11.0.86: for image preprocessing and visualization
+- TensorFlow v2.19.0: for deep learning model loading and inference
+- Keras v3.9.2: used within TensorFlow for model management
+- ML Dtypes / Flatbuffers / Libclang: TensorFlow dependencies for model structure and optimization
+
+### Packaging and Dependency Management
+- uv pip: for fast and isolated Python dependency resolution
+- requirements.txt: for listing all Python packages needed
+
+ ### Other Tools
+- Git / GitHub: for version control and code hosting
 
 
+## Installation
 
+### Steps
+1. Clone the repository:
+   
+   ```bash
+    git clone https://github.com/tharunteja77/BRAIN-TUMOR-SEGMENTATION
+   cd brain-tumor-segmentation
+   ```
+2. Install dependencies:
+   
+   ```bash
+   pip install uv
+   uv pip install -r requirements.txt
+   ```
+3. Run the Streamlit app
+
+   ```bash
+    streamlit run app.py
+   ```
+
+### Demo
+1. Access the application: Open your web browser and go to
+    ```bash
+    streamlit run app.py
+   ``` 
 ---
 
