@@ -83,6 +83,12 @@ The model achieved high segmentation performance on the validation dataset with 
 | IoU              | 0.841  |
 | Accuracy         | 0.998  | 
 
+<p align="center">
+  <img src="Results/R1.png" width="22%" />
+  <img src="Results/R2.png" width="22%" />
+  <img src="Results/R3.png" width="22%" />
+  <img src="Results/R4.png" width="22%" />
+</p>
 
 
 ## 📚 References
