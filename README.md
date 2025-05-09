@@ -143,7 +143,7 @@ The model achieved high segmentation performance on the validation dataset with 
 ### Demo
 1. Access the application: Open your web browser and go to
     ```bash
-    streamlit run app.py
+    https://brain-tumor-segmentation-ywjuawvylixwbvup4swgqg.streamlit.app/
    ``` 
 ---
 
