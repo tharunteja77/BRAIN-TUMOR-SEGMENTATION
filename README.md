@@ -153,6 +153,8 @@ The model achieved high segmentation performance on the validation dataset with 
     * If the demo website shows "Oh no. Error running app. If you need help, try the Streamlit docs and forums."
     * Firstly open 'Manage app' in the right bottom of the screen.
     * Press the 3-dots icon and then press 'Reboot app'.
+    * This error occurs because Streamlit Cloud, sometimes the app hits a timeout while setting up (especially when heavy libraries like tensorflow, opencv, etc. are used) or native libraries (e.g., libGL.so.1 for OpenCV), may not load correctly on the first try due to container startup issues.
+    * Rebooting gives it another chance to complete loading.
     * Then it should work fine, if not redo the same process.     
 ---
 
