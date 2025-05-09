@@ -26,7 +26,14 @@ def iou_coef(y_true, y_pred, smooth=100):
     return (intersection + smooth) / (sum - intersection + smooth)
 
 # Load model
-model = tf.keras.models.load_model("my_model.keras", custom_objects={"dice_loss": dice_loss, "dice_coef": dice_coef, "iou_coef": iou_coef})
+model_path = "my_model.keras"
+gdrive_file_id = "1fsbfxcNKlDX0viyBjTdvrZ2lFWHr1qja"
+if not os.path.exists(model_path):
+    st.info("Downloading model from Google Drive...")
+    gdrive_file_id = "1fsbfxcNKlDX0viyBjTdvrZ2lFWHr1qja"
+    url = f"https://drive.google.com/uc?id={gdrive_file_id}"
+    gdown.download(url, model_path, quiet=False)
+model = tf.keras.models.load_model(model_path, custom_objects={"dice_loss": dice_loss, "dice_coef": dice_coef, "iou_coef": iou_coef})
 
 # Preprocessing
 def preprocess_image(img):
