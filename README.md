@@ -30,6 +30,8 @@ Lower-grade gliomas (LGGs) are a heterogeneous group of brain tumors, and their 
    - Sigmoid output for binary segmentation mask
 
 3. **Training Details**:
+   - Loss Function: Dice Loss
+      Maximizes overlap between predicted and actual tumor masks.
    - Optimizer: Adamax (lr=0.001)
    - Loss Function: Dice Loss
    - Epochs: 119 (early stopping)
@@ -55,12 +57,6 @@ The model achieved high segmentation performance on the validation dataset with 
 - The Cancer Imaging Archive (TCIA) - TCGA-LGG Dataset
 - M. Buda et al., 2019; M.A. Mazurowski et al., 2017
 
-## 🙏 Acknowledgments
-
-We thank:
-- **TCIA and TCGA** for the dataset
-- **U-Net authors** for the foundational architecture
-- Our project guide and faculty for their continuous support
 
 
 
