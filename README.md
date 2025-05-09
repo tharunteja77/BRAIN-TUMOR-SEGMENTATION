@@ -10,11 +10,8 @@ of 110 patients. The proposed model demonstrates high accuracy
 and efficiency in delineating tumor regions from multimodal MRI
 images, contributing to improved diagnostic support systems.
 Index Terms—Brain tumor segmentation, U-Net, deep learning, MRI, medical image processing, LGG Segmentation Dataset.
-
-
-##  Project Overview
-
-Lower-grade gliomas (LGGs) are a heterogeneous group of
+### Introduction
+ Lower-grade gliomas (LGGs) are a heterogeneous group of
 primary brain tumors characterized by varying genetic profiles
 and clinical outcomes. Accurate and automated segmentation
 of LGGs in brain magnetic resonance imaging (MRI) is crucial
@@ -40,6 +37,11 @@ an image, enabling precise delineation of tumor regions. This
 study aims to automate LGG tumor segmentation and explore
 the model’s performance on clinical MRI scans using this
 established dataset.
+
+##  Project Overview
+
+This project implements a brain tumor segmentation system using a U-Net deep learning model. It aims to automatically identify and segment tumor regions from MRI brain scans, providing a crucial aid in medical diagnosis and treatment planning. The system uses a pre-trained model to process input MRI images and outputs segmented tumor areas with high accuracy. Built with TensorFlow and deployed using Streamlit, the project provides an interactive and user-friendly web interface for real-time image analysis.
+
 
 - **Dataset:** 110 patient cases with FLAIR MRI images and corresponding ground truth masks.
 - **Architecture:** U-Net (original implementation)
