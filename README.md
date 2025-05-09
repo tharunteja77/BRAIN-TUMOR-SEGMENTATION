@@ -148,6 +148,8 @@ The model achieved high segmentation performance on the validation dataset with 
     ```bash
     https://brain-tumor-segmentation-ywjuawvylixwbvup4swgqg.streamlit.app/
    ```
+    Copy the above link and paste in any browser or Click the link: [DEMO](https://brain-tumor-segmentation-ywjuawvylixwbvup4swgqg.streamlit.app/)
+
     * If the demo website shows "Oh no. Error running app. If you need help, try the Streamlit docs and forums."
     * Firstly open 'Manage app' in the right bottom of the screen.
     * Press the 3-dots icon and then press 'Reboot app'.
