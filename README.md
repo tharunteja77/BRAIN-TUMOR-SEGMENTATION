@@ -2,7 +2,8 @@
 
 
 
-Abstract—Accurate segmentation of brain tumors from MRI
+### Abstract
+Accurate segmentation of brain tumors from MRI
 images is a crucial step in the diagnosis and treatment of brain
 cancer. This project employs a U-Net based Convolutional Neural
 Network (CNN) to perform brain tumor segmentation of the data
